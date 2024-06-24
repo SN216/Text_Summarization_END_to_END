@@ -1,6 +1,7 @@
 import os
 from src.textSummarizer.logging import logger
 from src.textSummarizer.entity import DataValidationConfig
+import sentencepiece
 
 class DataValiadtion:
     def __init__(self, config: DataValidationConfig):

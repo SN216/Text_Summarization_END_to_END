@@ -177,3 +177,73 @@ x==========x]
 [2024-06-23 16:29:28,527: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2024-06-23 16:48:24,014: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-06-23 17:36:21,880: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 17:36:21,885: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 17:36:21,887: INFO: common: created directory at: artifacts]
+[2024-06-23 17:36:21,888: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-23 17:39:38,900: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 17:39:38,904: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 17:39:38,909: INFO: common: created directory at: artifacts]
+[2024-06-23 17:39:38,911: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-23 17:43:37,619: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 17:43:37,623: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 17:43:37,625: INFO: common: created directory at: artifacts]
+[2024-06-23 17:43:37,628: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-23 17:46:10,209: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-06-23 17:46:11,402: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 17:46:11,404: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 17:46:11,406: INFO: common: created directory at: artifacts]
+[2024-06-23 17:46:11,408: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-23 18:00:57,345: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-06-23 18:01:04,593: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-06-23 18:01:04,694: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 18:01:04,694: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 18:01:04,694: INFO: common: created directory at: artifacts]
+[2024-06-23 18:01:04,694: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-06-23 18:01:06,984: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8349:16BCE0:1E7177:259676:6677FFFC
+Accept-Ranges: bytes
+Date: Sun, 23 Jun 2024 12:31:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21723-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1719145866.120055,VS0,VE269
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7e7d4ab0d773c7cc05b1c42c50460c84de6abecf
+Expires: Sun, 23 Jun 2024 12:36:06 GMT
+Source-Age: 0
+
+]
+[2024-06-23 18:01:07,218: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-06-23 18:01:07,218: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-06-23 18:01:07,218: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 18:01:07,218: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 18:01:07,218: INFO: common: created directory at: artifacts]
+[2024-06-23 18:01:07,218: INFO: common: created directory at: artifacts/data_validation]
+[2024-06-23 18:01:07,218: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-06-23 18:01:07,218: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-06-23 18:01:07,218: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-23 18:01:07,234: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-23 18:01:07,234: INFO: common: created directory at: artifacts]
+[2024-06-23 18:01:07,234: INFO: common: created directory at: artifacts/data_transformation]
+[2024-06-23 18:01:16,142: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]

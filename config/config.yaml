@@ -9,5 +9,10 @@ data_ingestion:
   
 data_validation:
   root_dir: artifacts/data_validation
-  STATUS_FILE: artifacts/data_validation/status.txt
+  STATUS_FILE: artifacts/data_validation/status.txt #print the status whether the files are present or not
   ALL_REQUIRED_FILES: ["train", "test", "validation"] #to ensure all required files are present for training
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion/samsum_dataset
+  tokenizer_name: google/pegasus-cnn_dailymail
